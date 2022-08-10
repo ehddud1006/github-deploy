@@ -23,7 +23,7 @@ const Layout = () => {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="github-deploy">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<MainPage />} />
